@@ -1,0 +1,242 @@
+/* Members pages style */
+
+.memberb {
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: large;
+}
+
+
+
+#profile-photob {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    font-size: xx-small;
+}
+
+
+#h1b {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 153, 0);
+    text-align: center;
+    height: 50px;
+    border-width: 5px;
+    border-color: rgb(161, 161, 161);
+    border-style: outset;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+}
+
+
+#nameb {
+    font-size: x-large;
+    color: rgb(255, 153, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+#desb {
+    font-size: larger;
+    color: rgb(255, 153, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+.iconb {
+    width: 35px;
+    height: 35px;
+
+}
+
+
+#homeb {
+    width: 70px;
+    height: 70px;
+    font-size: medium;
+}
+
+
+#bodyb {
+    text-align: center;
+    ba
+    
+    font-size: large;
+
+}
+
+
+.rceb {
+    display: inline;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+#hobbies-and-interestsb {
+    color: rgb(255, 153, 0);
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+#media-accountsb {
+    color: rgb(255, 153, 0);
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+#contact-meb {
+    color: rgb(255, 153, 0);
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+#about-meb {
+    color: rgb(255, 153, 0);
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+#general-infob {
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.ab {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Main pages style */
+
+#bodya {
+    background-image: url("../imgs/silverbackground.jpeg");
+    background-size: cover;
+    padding: 2% 4%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#h1a {
+    display: inline;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: aquamarine;
+    text-align: center;
+    font-size: 1.1cm;
+    border-style: outset;
+    border-width: 12px;
+    border-color: rgb(3, 72, 80);
+    border-radius: 5px;
+    background-color: rgb(3, 72, 80);
+    width: 40%;
+    margin: auto;
+    margin-top: -7%;
+}
+
+#uqu-logo {
+    display: inline;
+    justify-content: right;
+    width: 11%;
+    font-size: medium;
+}
+
+.h2a {
+    color: rgb(3, 72, 80);
+    text-align: center;
+    font-size: 1cm;
+    font-family: 'Times New Roman', Times, serif
+}
+
+table {
+    width: 75%;
+    background-color: rgb(166, 227, 207);
+    color: rgb(7, 83, 92);
+    margin: 30px 0;
+    font-size: 0.9cm;
+    min-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6%;
+}
+
+li {
+    color: black;
+    font-size: 0.6cm;
+}
+
+tbody tr:hover {
+    background-color: whitesmoke;
+    color: rgb(55, 5, 75);
+    font-size: medium;
+}
+
+table,
+th,
+td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+td {
+    text-indent: 3%
+}
+
+
+.inst-img {
+    width: 200px;
+    border-radius: 100%;
+}
+
+
+.inst-prof {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+
+.aa {
+    text-decoration: none;
+    color: rgb(3, 72, 80);
+    font-size: xx-large;
+}
+
+
+.aa:visited {
+    color: rgb(195, 0, 255);
+    font-size: xx-large;
+}
+
+
+.aa:hover {
+    color: aqua;
+}
+
+
+.aa:active {
+    color: rgb(0, 89, 255);
+    font-size: 37px;
+}
+
+
+
+
+
