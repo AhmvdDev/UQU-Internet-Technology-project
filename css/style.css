@@ -51,10 +51,6 @@ table {
     border-radius: 6%;
 }
 
-li {
-    color: black;
-    font-size: 0.6cm;
-}
 
 tbody tr:hover {
     background-color: whitesmoke;
@@ -73,6 +69,10 @@ td {
     text-indent: 3%
 }
 
+li {
+    color: black;
+    font-size: 0.6cm;
+}
 
 .inst-img {
     width: 200px;
