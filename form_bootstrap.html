@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FORM</title>
+    <link rel="shortcut icon" href="imgs/logo.ico">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.rtl.min.css" integrity="sha384-WJUUqfoMmnfkBLne5uxXj+na/c7sesSJ32gI7GfCk4zO4GthUKhSEGyvQ839BC51" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding: 3%;
+            background-image: url(/imgs/bg.jpg);
+        }
+
+        label {
+            font-size: larger;
+        }
+
+        .icon {
+            width: 3%;
+        }
+    </style>
+</head>
+
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <fieldset>
+        <h1><b>نموذج إلكتروني </b></h1>
+        <p class="lead"><big>إنشاء صفحة جديدة لعضو جديد في المجموعة 8</big></p>
+    </fieldset>
+    <br>
+
+
+    <fieldset>
+        <form>
+
+
+            <!--Name-->
+            <label class="form-label">الاسم الثلاثي</label>
+            <br>
+            <input class="form-control" type="text" placeholder="اسمك واسم الأب واسم العائلة" required>
+            <br>
+
+
+            <!--Profile pic-->
+            <label class="form-label">صورة العضو</label>
+            <br>
+            <input class="form-control" type="file" accept="image/*" required>
+            <br>
+
+
+            <!--About-->
+            <label class="form-label">تعريف بسيط عنك</label>
+            <br>
+            <textarea class="form-control" cols="50" rows="4" required></textarea>
+            <br>
+
+
+            <!--Birth date-->
+            <label class="form-label">تاريخ الميلاد</label>
+            <br>
+            <input class="form-control" type="date" required>
+            <br>
+
+
+            <!--Mobile num-->
+            <label class="form-label">رقم الجوال</label>
+            <br>
+            <div class="input-group mb-3">
+                <input class="form-control" type="number" placeholder="أدخل رقم الجوال" maxlength="8" size="8" required>
+                <span class="input-group-text" id="basic-addon1">05</span>
+            </div>
+            <br>
+
+
+            <!--Email-->
+            <label class="form-label">البريد الالكتروني</label>
+            <br>
+            <input class="form-control" type="email" placeholder="abc123@gmail.com" required>
+            <br>
+
+
+            <!--Social media-->
+            <label class="form-label">حسابات التواصل الاجتماعي إن وجدت</label>
+            <br>
+
+            <div class="input-group mb-3" dir="ltr">
+                <img class="icon" src="imgs/twitter-icon.png" alt="twitter">
+                <span class="input-group-text" id="basic-addon1">@</span>
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+
+            <div class="input-group mb-3" dir="ltr">
+                <img class="icon" src="imgs/Facebook_Logo.webp" alt="Facebook">
+                <span class="input-group-text" id="basic-addon1">@</span>
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+
+            <div class="input-group mb-3" dir="ltr">
+                <img class="icon" src="imgs/Instagram_logo_2016.svg.webp" alt="Instagram">
+                <span class="input-group-text" id="basic-addon1">@</span>
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+
+            <div class="input-group mb-3" dir="ltr">
+                <img class="icon" src="imgs/YouTube_full.png" alt="YouTube">
+                <span class="input-group-text" id="basic-addon1">@</span>
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+
+            <div class="input-group mb-3" dir="ltr">
+                <img class="icon" src="imgs/4834215.png" alt="tiktok">
+                <span class="input-group-text" id="basic-addon1">@</span>
+                <input class="form-control" type="text" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+            <br><br>
+
+
+            <!--Interesting info about you-->
+            <label class="form-label">ثلاثة معلومات مثيرة عنك</label>
+            <br>
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">1</span>
+                <input class="form-control" type="text" required>
+            </div>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">2</span>
+                <input class="form-control" type="text" required>
+            </div>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">3</span>
+                <input class="form-control" type="text" required>
+            </div>
+            <br>
+
+
+            <!--Fav yt vid-->
+            <label class="form-label">رابط فيديو اليوتيوب المفضل</label>
+            <br>
+            <input class="form-control" type="url" placeholder="https://www.youtube.com/watch..." required>
+            <br>
+
+
+            <!--Gender-->
+            <label class="form-label">الجنس</label>
+            <br>
+            <div class="form-check">
+                <input class="form-check-input" id="male" type="radio" value="male" name="gender" required>
+                <label class="form-check-label" for="male">ذكر</label>
+            </div>
+            
+            <div class="form-check">
+                <input class="form-check-input" id="female" type="radio" value="fmale" name="gender" required>
+                <label class="form-check-label" for="female">أنثى</label>
+            </div>
+            <br>
+
+
+            <!--Submit-->
+            <input type="submit" class="btn btn-secondary" value="إرسال">
+
+
+        </form>
+    </fieldset>
+
+
+</body>
+
+
+</html>
